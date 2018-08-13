@@ -45,6 +45,12 @@ public class GameWonManager : MonoBehaviour
         Time.timeScale = 0;
         anim.SetTrigger("GameWon");
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 1;
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             exit.SetTrigger("Fade");

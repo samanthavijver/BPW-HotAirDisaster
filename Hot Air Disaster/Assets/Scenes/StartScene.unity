@@ -6177,7 +6177,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9aedae9b1adbf5646b4a84ebbf60814c, type: 3}
-    m_FontSize: 40
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -6190,10 +6190,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '
 
-    Use the mouse to rotate your camera. Use Rightclick to shoot enemies. Try to get
-    the Highest score you can!
-
-
+    Use the mouse to rotate your camera. Use Leftclick to shoot enemies. Try survive
+    for 200 seconds and get the highest score you can!
 
 
 '

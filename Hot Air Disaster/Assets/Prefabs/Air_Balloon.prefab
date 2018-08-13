@@ -477,7 +477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d117e5bc204de438fb2a0e4a6e634d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 300
+  currentHealth: 400
   healthSlider: {fileID: 0}
   damageImage: {fileID: 0}
   flashSpeed: 5
